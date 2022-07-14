@@ -11,38 +11,65 @@
         type="text/css" />
 </head>
 
-<body class="font-choco">
+<body class="overflow-x-hidden font-choco">
 
-    <header class="bg-[url(./img/bg-1.png)] bg-center bg-cover h-[568px]  ">
+    <!-- top-menu -->
+    <div
+        class="fixed z-50 flex items-center justify-between w-full pr-5 md:pr-0 mx-auto my-0 pl-5 bg-[url(./img/bg-1.png)] bg-center bg-cover">
 
-        <div class="fixed z-50 flex items-center justify-between w-full pr-10 mx-auto my-0 ml-5 bg-[url(./img/bg-1.png)] bg-center bg-cover">
+        <div class="grid items-center grid-flow-col gap-x-2 ">
+            <img src="./img/svg/menu.svg" alt="">
 
-            <div class="grid items-center grid-flow-col gap-x-2 ">
-                <img src="./img/svg/menu.svg" alt="">
-    
-                <p class="text-xl leading-6 text-white ">Меню</p>
-            </div>
-    
-            <div class="grid items-center grid-flow-col gap-x-5">
-                <button class="bg-[url(./img/svg/lupa.svg)] w-5 h-5 bg-center bg-no-repeat"></button>
-                <button class="flex items-center justify-center w-16 h-12 bg-orange">
-                    <img src="./img/svg/phone.svg" alt="">
-                </button>
-            </div>
-    
-    
-    
+            <p class="text-xl leading-6 text-white ">Меню</p>
         </div>
-        <!-- fucked up this menu -->
+
+        <div class="grid items-center grid-flow-col gap-x-5">
+            <button class="bg-[url(./img/svg/lupa.svg)] w-5 h-5 bg-center bg-no-repeat"></button>
+            <button class="flex items-center justify-center w-16 md:w-48 md:h-[60px] h-12 md:bg-white bg-orange">
+                <img class="md:hidden" src="./img/svg/phone.svg" alt="">
+                <p class="hidden text-lg leading-6 md:block">Связаться с нами</p>
+            </button>
+        </div>
 
 
-        <img src="./img/svg/Logo.svg" alt="" class="pt-24 mx-auto">
+
+    </div>
+
+    <!-- bottom menu -->
+    <div
+        class=" grid-flow-col z-50 items-stretch w-full px-8 my-0 bottom-0 text-base leading-[18px] font-bold text-white h-16 fixed text-right hidden md:grid bg-dark">
+        <button class="pr-8 text-left border-r-2 border-r-semidark">Серия для<br>
+            домов</button>
+
+        <button class="pl-8 text-left border-r-2 border-r-semidark">Серия для<br>
+            квартир</button>
+
+        <button class="pl-8 text-left border-r-2 border-r-semidark">22 года на<br> рынке</button>
+
+        <button class="pl-8 text-left border-r-2 border-r-semidark">Наши<br>
+            партнёры</button>
+
+        <button class="pl-8 text-left">Выгодное<br>
+            сотрудничество</button>
+    </div>
+
+    <header class="bg-[url(./img/bg-1.png)] bg-center bg-cover h-[568px] md:h-[1024px]  ">
+
+
+        <!-- Чекни сайт Leras чтоб не забыть как сделать менюшку -->
+        <!-- Спросить у бати где я официально прохожу практику
+и чем занимается контора -->
+
+        <!-- А ЕЩЕ ЗАЙМИСЬ НАКОНЕЦ РЕАКТОМ БЛЯ, ВСЕ РАВНО СИДИШЬ НИХУЯ НЕ ДЕЛАЕШЬ -->
+
+
+        <img src="./img/svg/Logo.svg" alt="" class="pt-24 md:pt-[300px] mx-auto">
 
         <p class="pt-8 text-3xl font-bold leading-6 text-center text-white">Производство и<br>оптовая продажа стальных
             входных<br>дверей</p>
         <p class="pt-8 text-lg leading-6 text-center text-white">Производственной компании «МеталлИнвест»</p>
 
-        <button class="block w-12 h-12 mx-auto mt-8 bg-white">
+        <button class="block w-12 h-12 mx-auto mt-8 bg-white md:mt-12">
             <img src="./img/svg/button_down.svg" alt="">
         </button>
 
@@ -76,7 +103,7 @@
         </div>
 
         <div
-            class="bg-[url(./img/hitech.png)] h-44 bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8">
+            class="bg-[url(./img/hitech.png)] h-44 md:h-[436px] bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8">
 
             <button class="w-12 h-12 rotate-90 bg-white ">
 
@@ -94,6 +121,52 @@
         </div>
 
     </main>
+
+    <section class="hidden md:block bg-[url(./img/bg-2.png)] bg-cover bg-center text-white ">
+
+        <p class="text-[40px] leading-[41px] font-bold pt-32 pb-10 ml-8 ">Премьер</p>
+
+        <div class="grid grid-flow-col pb-64 pl-5 overflow-x-scroll overflow-y-hidden grid-cols-fit4 gap-x-8 ">
+
+
+
+            <div class="relative">
+                <p>
+
+                </p>
+
+                <img class="" src="./img/doors/door1.png" alt="">
+            </div>
+
+            <div class="relative">
+                <p>
+
+                </p>
+
+                <img class="" src="./img/doors/door2.png" alt="">
+            </div>
+
+            <div class="relative">
+                <p>
+
+                </p>
+
+                <img class="" src="./img/doors/door3.png" alt="">
+            </div>
+
+            <div class="relative">
+                <p>
+
+                </p>
+
+                <img class="" src="./img/doors/door4.png" alt="">
+            </div>
+
+
+        </div>
+
+
+    </section>
 
     <section class="">
         <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
@@ -120,7 +193,7 @@
         </div>
 
         <div
-            class="bg-[url(./img/hitech.png)] h-44 bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8">
+            class="bg-[url(./img/hitech.png)] h-44 bg-no-repeat bg-center md:h-[436px] bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8">
 
             <button class="w-12 h-12 rotate-90 bg-white ">
 
@@ -138,6 +211,52 @@
         </div>
     </section>
 
+    <section class="hidden md:block text-dark ">
+
+        <p class="text-[40px] leading-[41px] font-bold pt-32 pb-10 ml-8 ">Оптима</p>
+
+        <div class="grid grid-flow-col pb-64 pl-5 overflow-x-scroll overflow-y-hidden grid-cols-fit4 gap-x-8 ">
+
+
+
+            <div class="relative">
+                <p>
+
+                </p>
+
+                <img class="" src="./img/doors/door1w.png" alt="">
+            </div>
+
+            <div class="relative">
+                <p>
+
+                </p>
+
+                <img class="" src="./img/doors/door2w.png" alt="">
+            </div>
+
+            <div class="relative">
+                <p>
+
+                </p>
+
+                <img class="" src="./img/doors/door3w.png" alt="">
+            </div>
+
+            <div class="relative">
+                <p>
+
+                </p>
+
+                <img class="" src="./img/doors/door4w.png" alt="">
+            </div>
+
+
+        </div>
+
+
+    </section>
+
     <section class="bg-[url(./img/bg-3.png)] bg-cover bg-center">
         <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
             <h2 class="text-4xl font-bold leading-8 text-white">Новые технологии<br>и инновационные<br>решения</h2>
@@ -152,16 +271,20 @@
                 Многоступенчатый контроль качества максимально исключает возможность брака.
             </p>
 
-            <p class="text-lg text-blue"><span class="font-bold text-5xl leading-[48px] text-blue">18
+            <p class="text-lg text-blue"><span class="font-bold text-5xl leading-[48px]  text-blue">18
                     000+</span><br>произведенных дверей</p>
         </div>
 
-        <div class="w-full h-40 mt-7"">
+        <div class="grid grid-flow-row justify-items-center mt-14">
             <img class src=" ./img/hz.png" alt="">
+
+
+            <img class="" src="./img/player.png" alt="">
         </div>
 
-        <img class="" src="./img/player.png" alt="">
     </section>
+
+
 
     <section class="bg-[url(./img/bg-4.png)] bg-cover bg-center">
 
@@ -169,7 +292,8 @@
             Наши партнеры
         </h3>
 
-        <div class="grid grid-flow-row pl-5 pr-5 pt-7 gap-y-[2px]">
+        <div
+            class="grid grid-flow-row pl-5 md:grid-cols-fit2 pr-5 pt-7 gap-y-[2px] justify-items-center md:justify-center">
             <div
                 class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] h-[120px] items-end justify-between">
                 <p class="self-center text-lg font-bold leading-5 text-white ml-7">Оптовые компании по продаже<br>
@@ -213,7 +337,7 @@
                 <img class="mr-5" src="./img/cards/card2.png" alt="">
             </div>
 
-            <p class="pb-8 mt-10 text-xl leading-7 text-center text-white">
+            <p class="pb-8 mt-10 text-xl leading-7 text-center text-white md:col-start-1 md:col-end-3">
                 Мы производим входные двери «Leras» в рамках наших коллекций, а также по индивидуальным проектам
             </p>
         </div>
@@ -232,68 +356,69 @@
             Сотрудничать с нами выгодно
         </h4>
 
-        <ul class="text-white text-lg lead-[18px] mt-8 ml-5 mr-5 grid grid-flow-row gap-y-5 pb-10">
+        <ul
+            class="text-white text-lg md:grid-cols-3 md:grid-rows-4 md:grid-flow-col lead-[18px] mt-8 ml-5 mr-5 grid grid-flow-row gap-y-5 pb-10">
 
-            <div class="flex flex-row gap-x-5">
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
-                <li>Уникальные стартовые условия для работы.</li>
+                <li>Уникальные стартовые<br class="hidden md:block"> условия для работы.</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
-                <li>Бесплатное обучение продавцов и специалистов дилеров</li>
+                <li>Бесплатное обучение<br class="hidden md:block"> продавцов и специалистов дилеров</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
-                <li>Персональный подход к решению поставленных задач</li>
+                <li>Персональный подход к<br class="hidden md:block"> решению поставленных задач</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
-                <li>Накопительные скидки для постояных партнеров</li>
+                <li>Накопительные скидки для<br class="hidden md:block"> постояных партнеров</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
-                <li>Сопровождение открытия магазина "с нуля"</li>
+                <li>Сопровождение открытия<br> магазина "с нуля"</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
-                <li>Большой, и обновляемый ассортимент всегда на складе</li>
+                <li>Большой, и обновляемый<br> ассортимент всегда на складе</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
-                <li>Работаем с юр.лицами и ИП с НДС и без</li>
+                <li>Работаем с юр.лицами и ИП с<br> НДС и без</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
-                <li>Выгрузка из базы данных для вашего сайта</li>
+                <li>Выгрузка из базы данных для<br> вашего сайта</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
                 <li>Низкие конкурентные цены</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
                 <li>Помощь в организации доставки дверей</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
                 <li>Персональный менеджер</li>
             </div>
-            
-            <div class="flex flex-row gap-x-5">
+
+            <div class="flex flex-row md:flex-col gap-x-5">
                 <div class="w-5 h-5 bg-blue"></div>
                 <li>Информационно – рекламная поддержка.</li>
             </div>
-            
+
         </ul>
 
     </section>
@@ -346,7 +471,7 @@
 
         <button type="submit" class="text-lg leading-5 bg-orange h-11">Связаться</button>
 
-        <div class="grid grid-flow-col pb-6">
+        <div class="grid grid-flow-col pb-6 md:pb-32 ">
             <p class="text-base leading-5 text-gray">© 2000—2019, LERAS</p>
             <p class="text-base leading-5 text-right text-gray">Разработка сайта LYNXOFT</p>
         </div>
