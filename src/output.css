@@ -570,8 +570,12 @@ video {
   bottom: 0px;
 }
 
-.left-48 {
-  left: 12rem;
+.bottom-24 {
+  bottom: 6rem;
+}
+
+.left-8 {
+  left: 2rem;
 }
 
 .z-50 {
@@ -707,6 +711,10 @@ video {
   grid-template-columns: repeat(4, max-content);
 }
 
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -777,6 +785,10 @@ video {
 
 .self-stretch {
   align-self: stretch;
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .overflow-x-hidden {
@@ -1135,10 +1147,6 @@ video {
     position: relative;
   }
 
-  .md\:left-44 {
-    left: 11rem;
-  }
-
   .md\:right-44 {
     right: 11rem;
   }
@@ -1153,10 +1161,6 @@ video {
 
   .md\:col-end-3 {
     grid-column-end: 3;
-  }
-
-  .md\:col-end-2 {
-    grid-column-end: 2;
   }
 
   .md\:row-start-2 {
@@ -1185,6 +1189,10 @@ video {
 
   .md\:block {
     display: block;
+  }
+
+  .md\:flex {
+    display: flex;
   }
 
   .md\:grid {
@@ -1236,11 +1244,6 @@ video {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 
-  .md\:grid-rows-fit4 {
-    grid-template-rows: repeat(4, -webkit-max-content);
-    grid-template-rows: repeat(4, max-content);
-  }
-
   .md\:grid-rows-fit5 {
     grid-template-rows: repeat(5, -webkit-max-content);
     grid-template-rows: repeat(5, max-content);
@@ -1271,19 +1274,58 @@ video {
     padding-left: 4rem;
   }
 
-  .md\:pl-14 {
-    padding-left: 3.5rem;
-  }
-
-  .md\:pb-32 {
-    padding-bottom: 8rem;
-  }
-
-  .md\:pb-56 {
-    padding-bottom: 14rem;
-  }
-
   .md\:pl-10 {
     padding-left: 2.5rem;
+  }
+
+  .md\:pb-40 {
+    padding-bottom: 10rem;
+  }
+}
+
+@media (min-width: 980px) {
+  .pls\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .pls\:ml-9 {
+    margin-left: 2.25rem;
+  }
+
+  .pls\:block {
+    display: block;
+  }
+
+  .pls\:flex {
+    display: flex;
+  }
+
+  .pls\:hidden {
+    display: none;
+  }
+
+  .pls\:justify-between {
+    justify-content: space-between;
+  }
+
+  .pls\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .pls\:pl-8 {
+    padding-left: 2rem;
+  }
+
+  .pls\:pr-0 {
+    padding-right: 0px;
+  }
+
+  .pls\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .pls\:text-left {
+    text-align: left;
   }
 }

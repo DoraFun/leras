@@ -37,8 +37,13 @@
 
     <!-- bottom menu -->
     <div
-        class=" grid-flow-col z-50 items-stretch w-full px-8 my-0 bottom-0 text-base leading-[18px] font-bold text-white h-16 fixed text-right hidden md:grid bg-dark">
-        <button class="pr-8 text-left border-r-2 border-r-semidark">Серия для<br>
+        class=" grid-flow-col z-50 items-stretch w-full px-8 pls:px-0 my-0 bottom-0 text-base leading-[18px] font-bold text-white h-16 fixed text-right hidden md:grid bg-dark">
+        
+        <button class="z-50 items-center justify-center hidden border-r-2 border-r-semidark pls:flex bg-dark">
+            <img class="" src="./img/svg/button_up.svg" alt="">
+        </button>
+
+        <button class="text-left border-r-2 pls:pl-8 border-r-semidark">Серия для<br>
             домов</button>
 
         <button class="pl-8 text-left border-r-2 border-r-semidark">Серия для<br>
@@ -51,25 +56,33 @@
 
         <button class="pl-8 text-left">Выгодное<br>
             сотрудничество</button>
+
+            <img class="hidden pls:block justify-self-end" src="./img/vidosik.png" alt="">
+            <!-- Сделаем вид, что это видео -->
     </div>
+
+    <!-- return button -->
+        <button class="fixed z-50 items-center justify-center hidden w-12 h-12 pls:hidden bottom-24 md:flex bg-dark left-8">
+            <img class="" src="./img/svg/button_up.svg" alt="">
+        </button>
+    
 
     <header class="bg-[url(./img/bg-1.png)] bg-center bg-cover h-[568px] md:h-[1024px]  ">
 
 
         <!-- Чекни сайт Leras чтоб не забыть как сделать менюшку -->
-        <!-- Спросить у бати где я официально прохожу практику
-и чем занимается контора -->
+
 
         <!-- А ЕЩЕ ЗАЙМИСЬ НАКОНЕЦ РЕАКТОМ БЛЯ, ВСЕ РАВНО СИДИШЬ НИХУЯ НЕ ДЕЛАЕШЬ -->
 
 
-        <img src="./img/svg/Logo.svg" alt="" class="pt-24 md:pt-[300px] mx-auto">
+        <img src="./img/svg/Logo.svg" alt="" class="pt-24 md:pt-[300px] pls:pt-40 pls:mr-0 pls:ml-9 mx-auto">
 
-        <p class="pt-8 text-3xl font-bold leading-6 text-center text-white">Производство и<br>оптовая продажа стальных
+        <p class="pt-8 text-3xl font-bold leading-6 text-center text-white pls:text-left pls:mr-0 pls:ml-9">Производство и <br class="pls:hidden">оптовая<br class="hidden pls:block"> продажа стальных
             входных<br>дверей</p>
-        <p class="pt-8 text-lg leading-6 text-center text-white">Производственной компании «МеталлИнвест»</p>
+        <p class="pt-8 text-lg leading-6 text-center text-white pls:mr-0 pls:text-left pls:ml-9">Производственной компании «МеталлИнвест»</p>
 
-        <button class="block w-12 h-12 mx-auto mt-8 bg-white md:mt-12">
+        <button class="block w-12 h-12 mx-auto mt-8 bg-white pls:hidden md:mt-12">
             <img src="./img/svg/button_down.svg" alt="">
         </button>
 
@@ -478,7 +491,7 @@
 
         <button type="submit" class="text-lg leading-5 bg-orange md:w-36 md:row-start-4 h-11">Связаться</button>
 
-        <div class="grid grid-flow-col pb-6 md:pb-32 md:row-start-5 md:col-start-1 md:col-end-3 ">
+        <div class="grid grid-flow-col pb-6 md:pb-40 md:row-start-5 md:col-start-1 md:col-end-3 ">
             <p class="text-base leading-5 text-gray">© 2000—2019, LERAS</p>
             <p class="text-base leading-5 text-right text-gray">Разработка сайта LYNXOFT</p>
         </div>

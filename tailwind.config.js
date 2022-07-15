@@ -37,6 +37,9 @@ module.exports = {
         square: 'square',
         roman: 'upper-roman',
       },
+      screens: {
+        'pls': '980px',
+      },
     },
   },
   plugins: [],
