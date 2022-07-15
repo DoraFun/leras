@@ -21,11 +21,14 @@ module.exports = {
         '7': "repeat(7, minmax(0, 1fr))",
         'fit2': "repeat(2, max-content)",
         'fit3': "repeat(3, max-content)",
+        'fit4': "repeat(4, max-content)",
+        'fit5': "repeat(5, max-content)",
       },
       gridTemplateColumns: {
         'fit2': "repeat(2, min-content)",
         'fit3': "repeat(3, max-content)",
         'fit4': "repeat(4, max-content)",
+        'fit5': "repeat(5, max-content)",
       },
       listStyleType: {
         none: 'none',
