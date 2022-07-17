@@ -26,7 +26,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         'fit2': "repeat(2, min-content)",
-        'fit3': "repeat(3, max-content)",
+        'fit3': "repeat(3, min-content)",
         'fit4': "repeat(4, max-content)",
         'fit5': "repeat(5, max-content)",
       },

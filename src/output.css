@@ -711,10 +711,6 @@ video {
   grid-template-columns: repeat(4, max-content);
 }
 
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -892,10 +888,6 @@ video {
 
 .pl-5 {
   padding-left: 1.25rem;
-}
-
-.pr-8 {
-  padding-right: 2rem;
 }
 
 .pl-8 {
@@ -1284,6 +1276,15 @@ video {
 }
 
 @media (min-width: 980px) {
+  .pls\:col-end-4 {
+    grid-column-end: 4;
+  }
+
+  .pls\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .pls\:mr-0 {
     margin-right: 0px;
   }
@@ -1300,12 +1301,46 @@ video {
     display: flex;
   }
 
+  .pls\:grid {
+    display: grid;
+  }
+
   .pls\:hidden {
     display: none;
   }
 
-  .pls\:justify-between {
-    justify-content: space-between;
+  .pls\:h-auto {
+    height: auto;
+  }
+
+  .pls\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+
+  .pls\:grid-cols-fit3 {
+    grid-template-columns: repeat(3, -webkit-min-content);
+    grid-template-columns: repeat(3, min-content);
+  }
+
+  .pls\:items-center {
+    align-items: center;
+  }
+
+  .pls\:justify-items-stretch {
+    justify-items: stretch;
+  }
+
+  .pls\:gap-x-12 {
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+  }
+
+  .pls\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .pls\:bg-\[url\(\.\/img\/bg3lg\.png\)\] {
+    background-image: url(./img/bg3lg.png);
   }
 
   .pls\:px-0 {
@@ -1317,12 +1352,8 @@ video {
     padding-left: 2rem;
   }
 
-  .pls\:pr-0 {
-    padding-right: 0px;
-  }
-
-  .pls\:pt-40 {
-    padding-top: 10rem;
+  .pls\:pt-0 {
+    padding-top: 0px;
   }
 
   .pls\:text-left {
