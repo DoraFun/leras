@@ -648,8 +648,8 @@ video {
   height: 4rem;
 }
 
-.h-\[568px\] {
-  height: 568px;
+.h-screen {
+  height: 100vh;
 }
 
 .h-11 {
@@ -662,6 +662,10 @@ video {
 
 .h-\[120px\] {
   height: 120px;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-full {
@@ -1199,10 +1203,6 @@ video {
     height: 60px;
   }
 
-  .md\:h-\[1024px\] {
-    height: 1024px;
-  }
-
   .md\:h-\[436px\] {
     height: 436px;
   }
@@ -1275,88 +1275,120 @@ video {
   }
 }
 
-@media (min-width: 980px) {
-  .pls\:col-end-4 {
+@media (min-width: 1024px) {
+  .lg\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .lg\:col-end-4 {
     grid-column-end: 4;
   }
 
-  .pls\:mx-0 {
+  .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .pls\:mr-0 {
+  .lg\:mr-0 {
     margin-right: 0px;
   }
 
-  .pls\:ml-9 {
+  .lg\:ml-9 {
     margin-left: 2.25rem;
   }
 
-  .pls\:block {
+  .lg\:block {
     display: block;
   }
 
-  .pls\:flex {
+  .lg\:flex {
     display: flex;
   }
 
-  .pls\:grid {
+  .lg\:grid {
     display: grid;
   }
 
-  .pls\:hidden {
+  .lg\:hidden {
     display: none;
   }
 
-  .pls\:h-auto {
+  .lg\:h-auto {
     height: auto;
   }
 
-  .pls\:grid-flow-col {
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
+  .lg\:h-\[70vh\] {
+    height: 70vh;
+  }
+
+  .lg\:h-\[164px\] {
+    height: 164px;
+  }
+
+  .lg\:min-h-screen {
+    min-height: 100vh;
+  }
+
+  .lg\:w-\[50vw\] {
+    width: 50vw;
+  }
+
+  .lg\:w-\[325px\] {
+    width: 325px;
+  }
+
+  .lg\:grid-flow-col {
     grid-auto-flow: column;
   }
 
-  .pls\:grid-cols-fit3 {
+  .lg\:grid-cols-fit3 {
     grid-template-columns: repeat(3, -webkit-min-content);
     grid-template-columns: repeat(3, min-content);
   }
 
-  .pls\:items-center {
+  .lg\:items-center {
     align-items: center;
   }
 
-  .pls\:justify-items-stretch {
+  .lg\:items-stretch {
+    align-items: stretch;
+  }
+
+  .lg\:justify-items-stretch {
     justify-items: stretch;
   }
 
-  .pls\:gap-x-12 {
+  .lg\:gap-x-12 {
     -moz-column-gap: 3rem;
          column-gap: 3rem;
   }
 
-  .pls\:overflow-hidden {
+  .lg\:overflow-hidden {
     overflow: hidden;
   }
 
-  .pls\:bg-\[url\(\.\/img\/bg3lg\.png\)\] {
+  .lg\:bg-\[url\(\.\/img\/bg3lg\.png\)\] {
     background-image: url(./img/bg3lg.png);
   }
 
-  .pls\:px-0 {
+  .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
   }
 
-  .pls\:pl-8 {
+  .lg\:pl-8 {
     padding-left: 2rem;
   }
 
-  .pls\:pt-0 {
+  .lg\:pt-0 {
     padding-top: 0px;
   }
 
-  .pls\:text-left {
+  .lg\:text-left {
     text-align: left;
   }
 }

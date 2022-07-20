@@ -37,13 +37,13 @@
 
     <!-- bottom menu -->
     <div
-        class=" grid-flow-col z-50 items-stretch w-full px-8 pls:px-0 my-0 bottom-0 text-base leading-[18px] font-bold text-white h-16 fixed text-right hidden md:grid bg-dark">
+        class=" grid-flow-col z-50 items-stretch w-full px-8 lg:px-0 my-0 bottom-0 text-base leading-[18px] font-bold text-white h-16 fixed text-right hidden md:grid bg-dark">
 
-        <button class="z-50 items-center justify-center hidden border-r-2 border-r-semidark pls:flex bg-dark">
+        <button class="z-50 items-center justify-center hidden border-r-2 border-r-semidark lg:flex bg-dark">
             <img class="" src="./img/svg/button_up.svg" alt="">
         </button>
 
-        <button class="text-left border-r-2 pls:pl-8 border-r-semidark">Серия для<br>
+        <button class="text-left border-r-2 lg:pl-8 border-r-semidark">Серия для<br>
             домов</button>
 
         <button class="pl-8 text-left border-r-2 border-r-semidark">Серия для<br>
@@ -57,40 +57,42 @@
         <button class="pl-8 text-left">Выгодное<br>
             сотрудничество</button>
 
-        <img class="hidden pls:block justify-self-end" src="./img/vidosik.png" alt="">
+        <img class="hidden lg:block justify-self-end" src="./img/vidosik.png" alt="">
         <!-- Сделаем вид, что это видео -->
     </div>
 
     <!-- return button -->
-    <button class="fixed z-50 items-center justify-center hidden w-12 h-12 pls:hidden bottom-24 md:flex bg-dark left-8">
+    <button class="fixed z-50 items-center justify-center hidden w-12 h-12 lg:hidden bottom-24 md:flex bg-dark left-8">
         <img class="" src="./img/svg/button_up.svg" alt="">
     </button>
 
 
-    <header class="bg-[url(./img/bg-1.png)] bg-center pls:items-center  bg-cover pls:grid pls:grid-flow-col h-[568px] md:h-[1024px] pls:justify-items-stretch pls:h-auto pls:gap-x-12  ">
+    <header class="bg-[url(./img/bg-1.png)] bg-center lg:items-center  bg-cover lg:grid lg:grid-flow-col min-h-screen lg:justify-items-stretch  lg:gap-x-12  ">
 
 
-        <div class="pt-24 md:pt-[300px] pls:pt-0 pls:mr-0 pls:ml-9 mx-auto pls:mx-0">
-            <img src="./img/svg/Logo.svg" alt="" class="mx-auto pls:mx-0">
+        <div class="pt-24 md:pt-[300px] lg:pt-0 lg:mr-0 lg:ml-9 mx-auto lg:mx-0">
+            <img src="./img/svg/Logo.svg" alt="" class="mx-auto lg:mx-0">
 
-            <p class="pt-8 text-3xl font-bold leading-6 text-center text-white pls:text-left ">Производство
-                и <br class="pls:hidden">оптовая<br class="hidden pls:block"> продажа стальных
+            <p class="pt-8 text-3xl font-bold leading-6 text-center text-white lg:text-left ">Производство
+                и <br class="lg:hidden">оптовая<br class="hidden lg:block"> продажа стальных
                 входных<br>дверей</p>
-            <p class="pt-8 text-lg leading-6 text-center text-white pls:text-left ">Производственной
+            <p class="pt-8 text-lg leading-6 text-center text-white lg:text-left ">Производственной
                 компании «МеталлИнвест»</p>
     
-            <button class="block w-12 h-12 mx-auto mt-8 bg-white pls:hidden md:mt-12">
+            <button class="block w-12 h-12 mx-auto mt-8 bg-white lg:hidden md:mt-12">
                 <img src="./img/svg/button_down.svg" alt="">
             </button>
         </div>
 
-        <img class="hidden pls:block" src="./img/header_image.png" alt="">
+        <img class="hidden lg:block lg:min-h-screen" src="./img/header_image.png" alt="">
 
 
 
     </header>
 
-    <main class="bg-[url(./img/bg-2.png)] bg-cover bg-center">
+    <main class="bg-[url(./img/bg-2.png)] bg-cover min-h-screen bg-center lg:items-stretch
+    lg:grid lg:grid-flow-col
+    lg:justify-items-stretch lg:gap-x-12">
 
         <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
 
@@ -118,7 +120,7 @@
         </div>
 
         <div
-            class="bg-[url(./img/hitech.png)] h-44 md:h-[436px] bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8">
+            class="bg-[url(./img/hitech.png)]  lg:h-auto lg:col-start-1 lg:w-[50vw] h-44 md:h-[436px] bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8">
 
             <button class="w-12 h-12 rotate-90 bg-white ">
 
@@ -137,7 +139,7 @@
 
     </main>
 
-    <section class="hidden md:block bg-[url(./img/bg-2.png)] bg-cover bg-center text-white ">
+    <section class="hidden md:block bg-[url(./img/bg-2.png)] min-h-screen bg-cover bg-center text-white ">
 
         <p class="text-[40px] leading-[41px] font-bold pt-32 pb-10 ml-8 ">Премьер</p>
 
@@ -183,7 +185,7 @@
 
     </section>
 
-    <section class="">
+    <section class="min-h-screen lg:grid lg:grid-flow-col lg:justify-items-stretch lg:gap-x-12">
         <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
 
             <p class="text-lg leading-4 ">Серия — Премьер</p>
@@ -208,25 +210,25 @@
         </div>
 
         <div
-            class="bg-[url(./img/hitech.png)] h-44 bg-no-repeat bg-center md:h-[436px] bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8">
+            class="bg-[url(./img/hitech.png)] lg:h-auto lg:w-[50vw] h-44 bg-no-repeat bg-center md:h-[436px] bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8">
 
             <button class="w-12 h-12 rotate-90 bg-white ">
 
                 <img src="./img/svg/button_down.svg" alt="">
             </button>
 
-            <p class="self-stretch text-2xl font-bold leading-6 text-white -rotate-90">Стиль<br>
+            <p class="text-2xl font-bold leading-6 text-white -rotate-90 ">Стиль<br>
                 Hi-Tech</p>
 
             <button class="w-12 h-12 -rotate-90 bg-white ">
 
                 <img src="./img/svg/button_down.svg" alt="">
             </button>
-            <!-- self strech чет не то -->
+            <!-- self strech в p ломает контейнер -->
         </div>
     </section>
 
-    <section class="hidden md:block text-dark ">
+    <section class="hidden min-h-screen md:block text-dark ">
 
         <p class="text-[40px] leading-[41px] font-bold pt-32 pb-10 ml-8 ">Оптима</p>
 
@@ -272,7 +274,7 @@
 
     </section>
 
-    <section class="bg-[url(./img/bg-3.png)] pls:bg-[url(./img/bg3lg.png)] pls:grid pls:grid-flow-col pls:overflow-hidden bg-cover bg-center">
+    <section class="bg-[url(./img/bg-3.png)] lg:bg-[url(./img/bg3lg.png)]  min-h-screen lg:grid lg:grid-flow-col lg:overflow-hidden bg-cover bg-center">
         <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
             <h2 class="text-4xl font-bold leading-8 text-white">Новые технологии<br>и инновационные<br>решения</h2>
 
@@ -290,69 +292,69 @@
                     000+</span><br>произведенных дверей</p>
         </div>
 
-        <div class="grid grid-flow-row justify-items-center mt-14">
-            <img class src=" ./img/hz.png" alt="">
+        <div class="grid grid-flow-row justify-items-center lg:items-center mt-14">
+            <img class="lg:h-[70vh]" src=" ./img/hz.png" alt="">
 
 
-            <img class="pls:hidden" src="./img/player.png" alt="">
+            <img class="lg:hidden " src="./img/player.png" alt="">
         </div>
 
     </section>
 
 
 
-    <section class="bg-[url(./img/bg-4.png)]  bg-cover bg-center">
+    <section class="bg-[url(./img/bg-4.png)] min-h-screen  bg-cover bg-center">
 
         <h3 class="text-4xl font-bold leading-9 text-center text-white pt-11">
             Наши партнеры
         </h3>
 
         <div
-            class="grid grid-flow-row pl-5 pls:grid-cols-fit3 md:grid-cols-fit2 pr-5 pt-7 gap-y-[2px] justify-items-center md:justify-center">
+            class="grid grid-flow-row pl-5 lg:grid-cols-fit3 md:grid-cols-fit2 pr-5 pt-7 gap-y-[2px] justify-items-center md:justify-center">
             <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] h-[120px] items-end justify-between">
+                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
                 <p class="self-center text-lg font-bold leading-5 text-white ml-7">Оптовые компании по продаже<br>
                     дверей
                 </p>
                 <img src="./img/cards/card1.png" alt="">
             </div>
             <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] h-[120px] items-end justify-between">
+                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
                 <p class="self-center text-lg font-bold leading-5 text-white ml-7">
                     Дверные магазины
                 </p>
                 <img class="mr-5" src="./img/cards/card2.png" alt="">
             </div>
             <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] h-[120px] items-end justify-between">
+                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
                 <p class="self-center text-lg font-bold leading-5 text-white ml-7">
                     Компании - застройщики
                 </p>
                 <img src="./img/cards/card3.png" alt="">
             </div>
             <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] h-[120px] items-end justify-between">
+                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
                 <p class="self-center text-lg font-bold leading-5 text-white ml-7">
                     Строительные фирмы
                 </p>
                 <img src="./img/cards/card4.png" alt="">
             </div>
             <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] h-[120px] items-end justify-between">
+                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
                 <p class="self-center text-lg font-bold leading-5 text-white ml-7">
                     Смежные организация с отделом снабжения
                 </p>
                 <img src="./img/cards/card3.png" alt="">
             </div>
             <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] h-[120px] items-end justify-between">
+                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
                 <p class="self-center text-lg font-bold leading-5 text-white ml-7">
                     Дизайнеры, проектные<br> бюро
                 </p>
                 <img class="mr-5" src="./img/cards/card2.png" alt="">
             </div>
 
-            <p class="pb-8 mt-10 text-xl leading-7 text-center text-white md:col-start-1 md:col-end-3 pls:col-end-4">
+            <p class="pb-8 mt-10 text-xl leading-7 text-center text-white md:col-start-1 md:col-end-3 lg:col-end-4">
                 Мы производим входные двери «Leras» в рамках наших коллекций, а также по индивидуальным проектам
             </p>
         </div>
@@ -365,7 +367,7 @@
 
     </section>
 
-    <section class="bg-[url(./img/bg-1.png)] bg-center bg-cover">
+    <section class="bg-[url(./img/bg-1.png)] min-h-screen bg-center bg-cover">
 
         <h4 class="ml-5 mr-5 text-4xl leading-9 text-white pt-9 ">
             Сотрудничать с нами выгодно
@@ -438,7 +440,7 @@
 
     </section>
 
-    <section class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
+    <section class="grid min-h-screen grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
 
         <div class="flex flex-row text-4xl font-bold leading-9 md:pl-16 gap-x-10">
 
@@ -462,7 +464,7 @@
         </div>
     </section>
 
-    <section class="grid grid-flow-row pt-10 pl-5 pr-5 md:pl-10 md:grid-cols-2 md:grid-rows-fit5 gap-y-6">
+    <section class="grid min-h-screen grid-flow-row pt-10 pl-5 pr-5 md:pl-10 md:grid-cols-2 md:grid-rows-fit5 gap-y-6">
         <h6 class="text-4xl font-bold leading-8 text-dark">
             Стать партнером
         </h6>
