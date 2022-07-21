@@ -16,6 +16,7 @@ module.exports = {
         "semidark": '#272829',
         "gray": '#A5A5A5',
         "more-gray": '#CCCCCC',
+        "less-blue": '#4CCAD2',
       },
       gridTemplateRows: {
         '7': "repeat(7, minmax(0, 1fr))",
@@ -39,6 +40,7 @@ module.exports = {
       },
       screens: {
         'pls': '980px',
+        'fhd': '1920px',
       },
     },
   },

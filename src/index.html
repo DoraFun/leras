@@ -11,7 +11,7 @@
         type="text/css" />
 </head>
 
-<body class="overflow-x-hidden font-choco">
+<body class="overflow-x-hidden font-choco snap-y">
 
     <!-- top-menu -->
     <div
@@ -34,30 +34,30 @@
 
 
     </div>
-
+    <!-- px-8 -->
     <!-- bottom menu -->
     <div
-        class=" grid-flow-col z-50 items-stretch w-full px-8 lg:px-0 my-0 bottom-0 text-base leading-[18px] font-bold text-white h-16 fixed text-right hidden md:grid bg-dark">
+        class=" grid-flow-col z-50 items-stretch w-full  lg:px-0 my-0 bottom-0 text-base leading-[18px] font-bold text-white h-16 fixed text-right hidden md:grid bg-dark">
 
         <button class="z-50 items-center justify-center hidden border-r-2 border-r-semidark lg:flex bg-dark">
             <img class="" src="./img/svg/button_up.svg" alt="">
         </button>
 
-        <button class="text-left border-r-2 lg:pl-8 border-r-semidark">Серия для<br>
+        <button class="pl-8 text-left transition-colors border-r-2 lg:pl-8 border-r-semidark hover:bg-less-blue" >Серия для<br>
             домов</button>
 
-        <button class="pl-8 text-left border-r-2 border-r-semidark">Серия для<br>
+        <button class="pl-8 text-left transition-colors border-r-2 border-r-semidark hover:bg-less-blue ">Серия для<br>
             квартир</button>
 
-        <button class="pl-8 text-left border-r-2 border-r-semidark">22 года на<br> рынке</button>
+        <button class="pl-8 text-left transition-colors border-r-2 border-r-semidark hover:bg-less-blue">22 года на<br> рынке</button>
 
-        <button class="pl-8 text-left border-r-2 border-r-semidark">Наши<br>
+        <button class="pl-8 text-left transition-colors border-r-2 border-r-semidark hover:bg-less-blue">Наши<br>
             партнёры</button>
 
-        <button class="pl-8 text-left">Выгодное<br>
+        <button class="pl-8 text-left hover:bg-less-blue">Выгодное<br>
             сотрудничество</button>
 
-        <img class="hidden lg:block justify-self-end" src="./img/vidosik.png" alt="">
+        <img class="hidden lg:block justify-self-end w-full h-[inherit]" src="./img/vidosik.png" alt="">
         <!-- Сделаем вид, что это видео -->
     </div>
 
@@ -67,7 +67,7 @@
     </button>
 
 
-    <header class="bg-[url(./img/bg-1.png)] bg-center lg:items-center  bg-cover lg:grid lg:grid-flow-col min-h-screen lg:justify-items-stretch  lg:gap-x-12  ">
+    <header class="bg-[url(./img/bg-1.png)] bg-center lg:items-center snap-center  bg-cover lg:grid lg:grid-flow-col min-h-screen lg:justify-items-stretch  lg:gap-x-12  ">
 
 
         <div class="pt-24 md:pt-[300px] lg:pt-0 lg:mr-0 lg:ml-9 mx-auto lg:mx-0">
@@ -90,7 +90,7 @@
 
     </header>
 
-    <main class="bg-[url(./img/bg-2.png)] bg-cover  grid grid-flow-row content-between min-h-screen bg-center lg:items-stretch
+    <main class="bg-[url(./img/bg-2.png)] bg-cover  grid grid-flow-row snap-center  content-between min-h-screen bg-center lg:items-stretch
     lg:grid lg:grid-flow-col
     lg:justify-items-stretch lg:gap-x-12">
 
@@ -120,19 +120,19 @@
         </div>
 
         <div
-            class="bg-[url(./img/hitech.png)] lg:h-screen lg:col-start-1 lg:w-[50vw] h-44 md:h-[436px] bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8">
+            class="bg-[url(./img/hitech.png)] content-center md:grid-rows-fit2 md:grid-cols-fit2 lg:h-screen lg:col-start-1 lg:w-[50vw] h-44 md:h-[436px] bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8 ">
 
-            
 
-            <button class="w-12 h-12 rotate-90 bg-white ">
+
+            <button class="w-12 h-12 rotate-90 bg-white md:row-start-1 md:col-start-2 ">
 
                 <img src="./img/svg/button_down.svg" alt="">
             </button>
 
-            <p class="self-stretch text-2xl font-bold leading-6 text-white -rotate-90">Стиль<br>
+            <p class="self-stretch text-2xl font-bold leading-6 text-white -rotate-90 md:row-start-1 whitespace-nowrap lg:text-6xl fhd:text-7xl md:row-end-3 md:text-[40px] md:leading-[80%] ">Стиль<br class="">
                 Hi-Tech</p>
 
-            <button class="w-12 h-12 -rotate-90 bg-white ">
+            <button class="w-12 h-12 -rotate-90 bg-white md:col-start-2 md:row-start-2 ">
 
                 <img src="./img/svg/button_down.svg" alt="">
             </button>
@@ -141,15 +141,15 @@
 
     </main>
 
-    <section class="hidden md:block bg-[url(./img/bg-2.png)] min-h-screen bg-cover bg-center text-white ">
+    <section class="hidden md:block bg-[url(./img/bg-2.png)] snap-center  min-h-screen bg-cover bg-center text-white ">
 
         <p class="text-[40px] leading-[41px] font-bold pt-32 pb-10 ml-8 ">Премьер</p>
 
-        <div class="grid grid-flow-col pb-64 pl-5 overflow-x-scroll overflow-y-hidden grid-cols-fit4 gap-x-8 ">
+        <div class="grid grid-flow-col pb-64 pl-5 overflow-x-scroll overflow-y-hidden snap-x grid-cols-fit4 gap-x-8 ">
 
 
 
-            <div class="relative">
+            <div class="relative snap-center">
                 <p>
 
                 </p>
@@ -157,7 +157,7 @@
                 <img class="" src="./img/doors/door1.png" alt="">
             </div>
 
-            <div class="relative">
+            <div class="relative snap-center">
                 <p>
 
                 </p>
@@ -165,7 +165,7 @@
                 <img class="" src="./img/doors/door2.png" alt="">
             </div>
 
-            <div class="relative">
+            <div class="relative snap-center">
                 <p>
 
                 </p>
@@ -173,7 +173,7 @@
                 <img class="" src="./img/doors/door3.png" alt="">
             </div>
 
-            <div class="relative">
+            <div class="relative snap-center">
                 <p>
 
                 </p>
@@ -187,7 +187,7 @@
 
     </section>
 
-    <section class="grid content-between min-h-screen grid-flow-row lg:grid lg:grid-flow-col lg:justify-items-stretch lg:gap-x-12">
+    <section class="grid content-between min-h-screen grid-flow-row snap-center lg:grid lg:grid-flow-col lg:justify-items-stretch lg:gap-x-12">
         <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
 
             <p class="text-lg leading-4 ">Серия — Премьер</p>
@@ -212,25 +212,27 @@
         </div>
 
         <div
-            class="bg-[url(./img/hitech.png)] lg:w-[50vw] lg:h-screen h-44 bg-no-repeat bg-center md:h-[436px] bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8">
+            class="bg-[url(./img/hitech.png)] content-center md:grid-rows-fit2 md:grid-cols-fit2 lg:h-screen lg:w-[50vw] h-44 md:h-[436px] bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center md:pr-4">
 
-            <button class="w-12 h-12 rotate-90 bg-white ">
+
+
+            <button class="w-12 h-12 rotate-90 bg-white md:row-start-1 md:col-start-2 ">
 
                 <img src="./img/svg/button_down.svg" alt="">
             </button>
 
-            <p class="text-2xl font-bold leading-6 text-white -rotate-90 ">Стиль<br>
+            <p class="self-stretch text-2xl font-bold leading-6 text-white -rotate-90 md:row-start-1 whitespace-nowrap lg:text-6xl fhd:text-7xl md:row-end-3 md:text-[40px] md:leading-[80%] ">Стиль<br class="">
                 Hi-Tech</p>
 
-            <button class="w-12 h-12 -rotate-90 bg-white ">
+            <button class="w-12 h-12 -rotate-90 bg-white md:col-start-2 md:row-start-2 ">
 
                 <img src="./img/svg/button_down.svg" alt="">
             </button>
-            <!-- self strech в p ломает контейнер -->
+            <!-- self strech чет не то -->
         </div>
     </section>
 
-    <section class="hidden min-h-screen md:block text-dark ">
+    <section class="hidden min-h-screen md:block snap-center text-dark ">
 
         <p class="text-[40px] leading-[41px] font-bold pt-32 pb-10 ml-8 ">Оптима</p>
 
@@ -276,7 +278,7 @@
 
     </section>
 
-    <section class="bg-[url(./img/bg-3.png)] lg:bg-[url(./img/bg3lg.png)]  min-h-screen lg:grid lg:grid-flow-col lg:overflow-hidden bg-cover bg-center">
+    <section class="bg-[url(./img/bg-3.png)] lg:bg-[url(./img/bg3lg.png)] snap-center  min-h-screen lg:grid lg:grid-flow-col lg:overflow-hidden bg-cover bg-center">
         <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
             <h2 class="text-4xl font-bold leading-8 text-white">Новые технологии<br>и инновационные<br>решения</h2>
 
@@ -305,7 +307,7 @@
 
 
 
-    <section class="bg-[url(./img/bg-4.png)] min-h-screen  bg-cover bg-center">
+    <section class="bg-[url(./img/bg-4.png)] min-h-screen snap-center  bg-cover bg-center">
 
         <h3 class="text-4xl font-bold leading-9 text-center text-white pt-11">
             Наши партнеры
@@ -369,7 +371,7 @@
 
     </section>
 
-    <section class="bg-[url(./img/bg-1.png)] min-h-screen bg-center bg-cover">
+    <section class="bg-[url(./img/bg-1.png)] snap-center min-h-screen bg-center bg-cover">
 
         <h4 class="ml-5 mr-5 text-4xl leading-9 text-white pt-9 ">
             Сотрудничать с нами выгодно
@@ -442,7 +444,7 @@
 
     </section>
 
-    <section class="grid items-baseline min-h-[50vh] grid-flow-row pl-5 pr-5 grid-rows-fit3 gap-y-5 pt-7">
+    <section class="grid items-baseline min-h-[50vh] snap-center grid-flow-row pl-5 pr-5 grid-rows-fit3 gap-y-5 pt-7">
 
         <div class="flex flex-row text-4xl font-bold leading-9 md:pl-16 gap-x-10">
 
@@ -466,7 +468,7 @@
         </div>
     </section>
 
-    <section class="grid min-h-[50vh] grid-flow-row pt-10 pl-5 pr-5 md:pl-10 md:grid-cols-2 md:grid-rows-fit5 gap-y-6">
+    <section class="grid min-h-[50vh] grid-flow-row snap-center pt-10 pl-5 pr-5 md:pl-10 md:grid-cols-2 md:grid-rows-fit5 gap-y-6">
         <h6 class="text-4xl font-bold leading-8 text-dark">
             Стать партнером
         </h6>

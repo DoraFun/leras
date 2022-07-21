@@ -562,10 +562,6 @@ video {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -664,8 +660,8 @@ video {
   height: 120px;
 }
 
-.h-screen {
-  height: 100vh;
+.h-\[inherit\] {
+  height: inherit;
 }
 
 .min-h-screen {
@@ -710,6 +706,37 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@-webkit-keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-pulse {
+  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.snap-x {
+  -ms-scroll-snap-type: x var(--tw-scroll-snap-strictness);
+      scroll-snap-type: x var(--tw-scroll-snap-strictness);
+}
+
+.snap-y {
+  -ms-scroll-snap-type: y var(--tw-scroll-snap-strictness);
+      scroll-snap-type: y var(--tw-scroll-snap-strictness);
+}
+
+.snap-center {
+  scroll-snap-align: center;
+}
+
 .grid-flow-row {
   grid-auto-flow: row;
 }
@@ -730,6 +757,10 @@ video {
 
 .flex-row {
   flex-direction: row;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .content-between {
@@ -822,6 +853,10 @@ video {
 
 .overflow-x-scroll {
   overflow-x: scroll;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .border-r-2 {
@@ -1117,6 +1152,20 @@ video {
   opacity: 0.4;
 }
 
+.transition-colors {
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .placeholder\:text-lg::-moz-placeholder {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1159,6 +1208,22 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.hover\:animate-pulse:hover {
+  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.hover\:bg-less-blue:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(76 202 210 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:relative {
     position: relative;
@@ -1168,16 +1233,20 @@ video {
     right: 11rem;
   }
 
-  .md\:col-start-1 {
-    grid-column-start: 1;
-  }
-
   .md\:col-start-2 {
     grid-column-start: 2;
   }
 
+  .md\:col-start-1 {
+    grid-column-start: 1;
+  }
+
   .md\:col-end-3 {
     grid-column-end: 3;
+  }
+
+  .md\:row-start-1 {
+    grid-row-start: 1;
   }
 
   .md\:row-start-2 {
@@ -1194,6 +1263,10 @@ video {
 
   .md\:row-start-5 {
     grid-row-start: 5;
+  }
+
+  .md\:row-end-3 {
+    grid-row-end: 3;
   }
 
   .md\:mt-12 {
@@ -1253,6 +1326,11 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:grid-rows-fit2 {
+    grid-template-rows: repeat(2, -webkit-max-content);
+    grid-template-rows: repeat(2, max-content);
+  }
+
   .md\:grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
@@ -1283,6 +1361,10 @@ video {
     padding-top: 300px;
   }
 
+  .md\:pr-4 {
+    padding-right: 1rem;
+  }
+
   .md\:pl-16 {
     padding-left: 4rem;
   }
@@ -1293,6 +1375,14 @@ video {
 
   .md\:pb-40 {
     padding-bottom: 10rem;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .md\:leading-\[80\%\] {
+    line-height: 80%;
   }
 }
 
@@ -1334,8 +1424,8 @@ video {
     display: none;
   }
 
-  .lg\:h-auto {
-    height: auto;
+  .lg\:h-screen {
+    height: 100vh;
   }
 
   .lg\:h-\[70vh\] {
@@ -1344,10 +1434,6 @@ video {
 
   .lg\:h-\[164px\] {
     height: 164px;
-  }
-
-  .lg\:h-screen {
-    height: 100vh;
   }
 
   .lg\:min-h-screen {
@@ -1411,5 +1497,17 @@ video {
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1920px) {
+  .fhd\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
