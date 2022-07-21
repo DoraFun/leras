@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="./output.css">
     <link href="//db.onlinewebfonts.com/c/0e4eba488b97739bf75317aaa728f3c1?family=TTChocolates-Regular" rel="stylesheet"
         type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../node_modules/fullpage.js/dist/fullpage.css" />
+    <script defer type="text/javascript" src="../node_modules/fullpage.js/dist/fullpage.extensions.js"></script>
 </head>
 
-<body class="overflow-x-hidden font-choco snap-y">
+<body class="overflow-x-hidden font-choco ">
 
     <!-- top-menu -->
     <div
@@ -43,13 +45,15 @@
             <img class="" src="./img/svg/button_up.svg" alt="">
         </button>
 
-        <button class="pl-8 text-left transition-colors border-r-2 lg:pl-8 border-r-semidark hover:bg-less-blue" >Серия для<br>
+        <button class="pl-8 text-left transition-colors border-r-2 lg:pl-8 border-r-semidark hover:bg-less-blue">Серия
+            для<br>
             домов</button>
 
         <button class="pl-8 text-left transition-colors border-r-2 border-r-semidark hover:bg-less-blue ">Серия для<br>
             квартир</button>
 
-        <button class="pl-8 text-left transition-colors border-r-2 border-r-semidark hover:bg-less-blue">22 года на<br> рынке</button>
+        <button class="pl-8 text-left transition-colors border-r-2 border-r-semidark hover:bg-less-blue">22 года на<br>
+            рынке</button>
 
         <button class="pl-8 text-left transition-colors border-r-2 border-r-semidark hover:bg-less-blue">Наши<br>
             партнёры</button>
@@ -66,450 +70,469 @@
         <img class="" src="./img/svg/button_up.svg" alt="">
     </button>
 
+    <div class="flex flex-col snap-y scroll-smooth">
 
-    <header class="bg-[url(./img/bg-1.png)] bg-center lg:items-center snap-center  bg-cover lg:grid lg:grid-flow-col min-h-screen lg:justify-items-stretch  lg:gap-x-12  ">
-
-
-        <div class="pt-24 md:pt-[300px] lg:pt-0 lg:mr-0 lg:ml-9 mx-auto lg:mx-0">
-            <img src="./img/svg/Logo.svg" alt="" class="mx-auto lg:mx-0">
-
-            <p class="pt-8 text-3xl font-bold leading-6 text-center text-white lg:text-left ">Производство
-                и <br class="lg:hidden">оптовая<br class="hidden lg:block"> продажа стальных
-                входных<br>дверей</p>
-            <p class="pt-8 text-lg leading-6 text-center text-white lg:text-left ">Производственной
-                компании «МеталлИнвест»</p>
-    
-            <button class="block w-12 h-12 mx-auto mt-8 bg-white lg:hidden md:mt-12">
-                <img src="./img/svg/button_down.svg" alt="">
-            </button>
-        </div>
-
-        <img class="hidden lg:block lg:min-h-screen" src="./img/header_image.png" alt="">
+        <header
+            class="bg-[url(./img/bg-1.png)] bg-center lg:items-center snap-start bg-cover lg:grid lg:grid-flow-col min-h-screen lg:justify-items-stretch  lg:gap-x-12  ">
 
 
+            <div class="pt-24 md:pt-[300px] lg:pt-0 lg:mr-0 lg:ml-9 mx-auto lg:mx-0">
+                <img src="./img/svg/Logo.svg" alt="" class="mx-auto lg:mx-0">
 
-    </header>
+                <p class="pt-8 text-3xl font-bold leading-6 text-center text-white lg:text-left ">Производство
+                    и <br class="lg:hidden">оптовая<br class="hidden lg:block"> продажа стальных
+                    входных<br>дверей</p>
+                <p class="pt-8 text-lg leading-6 text-center text-white lg:text-left ">Производственной
+                    компании «МеталлИнвест»</p>
 
-    <main class="bg-[url(./img/bg-2.png)] bg-cover  grid grid-flow-row snap-center  content-between min-h-screen bg-center lg:items-stretch
-    lg:grid lg:grid-flow-col
-    lg:justify-items-stretch lg:gap-x-12">
+                <button class="block w-12 h-12 mx-auto mt-8 bg-white lg:hidden md:mt-12">
+                    <img src="./img/svg/button_down.svg" alt="">
+                </button>
+            </div>
 
-        <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
+            <img class="hidden lg:block lg:min-h-screen" src="./img/header_image.png" alt="">
 
-            <p class="text-lg leading-4 text-white opacity-50">Серия — Премьер</p>
 
-            <h1 class="text-4xl font-bold leading-9 text-white">Двери для дома</h1>
 
-            <p class="text-lg font-bold leading-6 text-white">
-                Именно двери являются визитной карточкой дома, которая дает представление о вкусе и достатке хозяев
+        </header>
+
+        <main class="bg-[url(./img/bg-2.png)] bg-cover  grid grid-flow-row snap-start  content-between min-h-screen bg-center lg:items-stretch
+        lg:grid lg:grid-flow-col
+        lg:justify-items-stretch lg:gap-x-12">
+
+            <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
+
+                <p class="text-lg leading-4 text-white opacity-50">Серия — Премьер</p>
+
+                <h1 class="text-4xl font-bold leading-9 text-white">Двери для дома</h1>
+
+                <p class="text-lg font-bold leading-6 text-white">
+                    Именно двери являются визитной карточкой дома, которая дает представление о вкусе и достатке хозяев
+                </p>
+
+                <p class="text-lg leading-6 text-white">
+                    Инновационность и эксклюзивность основных решений этой серии позволит Вам стать обладателем
+                    индивидуального изделия, отличающего Ваш дом от всеобщего однообразия и дешевизны.
+                </p>
+
+                <div class="flex flex-row gap-5">
+                    <p class="text-lg text-blue"><span
+                            class="font-bold text-5xl leading-[47px] text-blue">27+</span><br>моделей</p>
+                    <p class="text-lg text-blue"><span
+                            class="font-bold text-5xl leading-[47px] text-blue">150+</span><br>дверей</p>
+                </div>
+
+                <button class="w-[188px] h-11 bg-orange text-dark text-lg leading-5 text-center">Перейти в
+                    каталог</button>
+            </div>
+
+            <div
+                class="bg-[url(./img/hitech.png)] content-center md:grid-rows-fit2 md:grid-cols-fit2 lg:h-screen lg:col-start-1 lg:w-[50vw] h-44 md:h-[436px] bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8 ">
+
+
+
+                <button class="w-12 h-12 rotate-90 bg-white md:row-start-1 md:col-start-2 ">
+
+                    <img src="./img/svg/button_down.svg" alt="">
+                </button>
+
+                <p
+                    class="self-stretch text-2xl font-bold leading-6 text-white -rotate-90 md:row-start-1 whitespace-nowrap lg:text-6xl fhd:text-7xl md:row-end-3 md:text-[40px] md:leading-[80%] ">
+                    Стиль<br class="">
+                    Hi-Tech</p>
+
+                <button class="w-12 h-12 -rotate-90 bg-white md:col-start-2 md:row-start-2 ">
+
+                    <img src="./img/svg/button_down.svg" alt="">
+                </button>
+                <!-- self strech чет не то -->
+            </div>
+
+        </main>
+
+        <section
+            class="hidden md:block bg-[url(./img/bg-2.png)] snap-start  min-h-screen bg-cover bg-center text-white ">
+
+            <p class="text-[40px] leading-[41px] font-bold pt-32 pb-10 ml-8 ">Премьер</p>
+
+            <div
+                class="grid grid-flow-col pb-64 pl-5 overflow-x-scroll overflow-y-hidden snap-x grid-cols-fit4 gap-x-8 ">
+
+
+
+                <div class="relative snap-start">
+                    <p>
+
+                    </p>
+
+                    <img class="" src="./img/doors/door1.png" alt="">
+                </div>
+
+                <div class="relative snap-start">
+                    <p>
+
+                    </p>
+
+                    <img class="" src="./img/doors/door2.png" alt="">
+                </div>
+
+                <div class="relative snap-start">
+                    <p>
+
+                    </p>
+
+                    <img class="" src="./img/doors/door3.png" alt="">
+                </div>
+
+                <div class="relative snap-start">
+                    <p>
+
+                    </p>
+
+                    <img class="" src="./img/doors/door4.png" alt="">
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <section
+            class="grid content-between min-h-screen grid-flow-row snap-start lg:grid lg:grid-flow-col lg:justify-items-stretch lg:gap-x-12">
+            <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
+
+                <p class="text-lg leading-4 ">Серия — Премьер</p>
+
+                <h1 class="text-4xl font-bold leading-9 ">Двери для дома</h1>
+
+                <p class="text-lg font-bold leading-6 ">
+                    Именно двери являются визитной карточкой дома, которая дает представление о вкусе и достатке хозяев
+                </p>
+
+                <p class="text-lg leading-6 ">
+                    Инновационность и эксклюзивность основных решений этой серии позволит Вам стать обладателем
+                    индивидуального изделия, отличающего Ваш дом от всеобщего однообразия и дешевизны.
+                </p>
+
+                <div class="flex flex-row gap-5">
+                    <p class="text-lg "><span class="font-bold text-5xl leading-[47px] ">27+</span><br>моделей</p>
+                    <p class="text-lg "><span class="font-bold text-5xl leading-[47px]">150+</span><br>дверей</p>
+                </div>
+
+                <button class="w-[188px] h-11 bg-orange text-dark text-lg leading-5 text-center">Перейти в
+                    каталог</button>
+            </div>
+
+            <div
+                class="bg-[url(./img/hitech.png)] content-center md:grid-rows-fit2 md:grid-cols-fit2 lg:h-screen lg:w-[50vw] h-44 md:h-[436px] bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center md:pr-4">
+
+
+
+                <button class="w-12 h-12 rotate-90 bg-white md:row-start-1 md:col-start-2 ">
+
+                    <img src="./img/svg/button_down.svg" alt="">
+                </button>
+
+                <p
+                    class="self-stretch text-2xl font-bold leading-6 text-white -rotate-90 md:row-start-1 whitespace-nowrap lg:text-6xl fhd:text-7xl md:row-end-3 md:text-[40px] md:leading-[80%] ">
+                    Стиль<br class="">
+                    Hi-Tech</p>
+
+                <button class="w-12 h-12 -rotate-90 bg-white md:col-start-2 md:row-start-2 ">
+
+                    <img src="./img/svg/button_down.svg" alt="">
+                </button>
+                <!-- self strech чет не то -->
+            </div>
+        </section>
+
+        <section class="hidden min-h-screen md:block snap-start text-dark ">
+
+            <p class="text-[40px] leading-[41px] font-bold pt-32 pb-10 ml-8 ">Оптима</p>
+
+            <div class="grid grid-flow-col pb-64 pl-5 overflow-x-scroll overflow-y-hidden grid-cols-fit4 gap-x-8 ">
+
+
+
+                <div class="relative">
+                    <p>
+
+                    </p>
+
+                    <img class="" src="./img/doors/door1w.png" alt="">
+                </div>
+
+                <div class="relative">
+                    <p>
+
+                    </p>
+
+                    <img class="" src="./img/doors/door2w.png" alt="">
+                </div>
+
+                <div class="relative">
+                    <p>
+
+                    </p>
+
+                    <img class="" src="./img/doors/door3w.png" alt="">
+                </div>
+
+                <div class="relative">
+                    <p>
+
+                    </p>
+
+                    <img class="" src="./img/doors/door4w.png" alt="">
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <section
+            class="bg-[url(./img/bg-3.png)] lg:bg-[url(./img/bg3lg.png)] snap-start  min-h-screen lg:grid lg:grid-flow-col lg:overflow-hidden bg-cover bg-center">
+            <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
+                <h2 class="text-4xl font-bold leading-8 text-white">Новые технологии<br>и инновационные<br>решения</h2>
+
+                <p class="text-lg leading-4 text-white opacity-40">Более 20 лет опыта</p>
+
+                <p class="leading-5 text-lg tracking-[0.02em] text-white ">Наши инженеры компании постоянно
+                    совершенствуют
+                    конструкцию входных дверей.<br><br>
+
+                    В своей работе мы используем международные стандарты качества и эффективности в области
+                    производства,
+                    материалов, дизайна и поэтому достигаем предельного качества продукции.
+                    Многоступенчатый контроль качества максимально исключает возможность брака.
+                </p>
+
+                <p class="text-lg text-blue"><span class="font-bold text-5xl leading-[48px]  text-blue">18
+                        000+</span><br>произведенных дверей</p>
+            </div>
+
+            <div class="grid grid-flow-row justify-items-center lg:items-center mt-14">
+                <img class="lg:h-[70vh]" src=" ./img/hz.png" alt="">
+
+
+                <img class="lg:hidden " src="./img/player.png" alt="">
+            </div>
+
+        </section>
+
+
+
+        <section class="bg-[url(./img/bg-4.png)] min-h-screen snap-start  bg-cover bg-center">
+
+            <h3 class="text-4xl font-bold leading-9 text-center text-white pt-11">
+                Наши партнеры
+            </h3>
+
+            <div
+                class="grid grid-flow-row pl-5 lg:grid-cols-fit3 md:grid-cols-fit2 pr-5 pt-7 gap-y-[2px] justify-items-center md:justify-center">
+                <div
+                    class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
+                    <p class="self-center text-lg font-bold leading-5 text-white ml-7">Оптовые компании по продаже<br>
+                        дверей
+                    </p>
+                    <img src="./img/cards/card1.png" alt="">
+                </div>
+                <div
+                    class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
+                    <p class="self-center text-lg font-bold leading-5 text-white ml-7">
+                        Дверные магазины
+                    </p>
+                    <img class="mr-5" src="./img/cards/card2.png" alt="">
+                </div>
+                <div
+                    class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
+                    <p class="self-center text-lg font-bold leading-5 text-white ml-7">
+                        Компании - застройщики
+                    </p>
+                    <img src="./img/cards/card3.png" alt="">
+                </div>
+                <div
+                    class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
+                    <p class="self-center text-lg font-bold leading-5 text-white ml-7">
+                        Строительные фирмы
+                    </p>
+                    <img src="./img/cards/card4.png" alt="">
+                </div>
+                <div
+                    class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
+                    <p class="self-center text-lg font-bold leading-5 text-white ml-7">
+                        Смежные организация с отделом снабжения
+                    </p>
+                    <img src="./img/cards/card3.png" alt="">
+                </div>
+                <div
+                    class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
+                    <p class="self-center text-lg font-bold leading-5 text-white ml-7">
+                        Дизайнеры, проектные<br> бюро
+                    </p>
+                    <img class="mr-5" src="./img/cards/card2.png" alt="">
+                </div>
+
+                <p class="pb-8 mt-10 text-xl leading-7 text-center text-white md:col-start-1 md:col-end-3 lg:col-end-4">
+                    Мы производим входные двери «Leras» в рамках наших коллекций, а также по индивидуальным проектам
+                </p>
+            </div>
+
+
+
+
+
+
+
+        </section>
+
+        <section class="bg-[url(./img/bg-1.png)] snap-start min-h-screen bg-center bg-cover">
+
+            <h4 class="ml-5 mr-5 text-4xl leading-9 text-white pt-9 ">
+                Сотрудничать с нами выгодно
+            </h4>
+
+            <ul
+                class="text-white text-lg md:grid-cols-3 md:grid-rows-4 md:grid-flow-col lead-[18px] mt-8 ml-5 mr-5 grid grid-flow-row gap-y-5 pb-10">
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Уникальные стартовые<br class="hidden md:block"> условия для работы.</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Бесплатное обучение<br class="hidden md:block"> продавцов и специалистов дилеров</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Персональный подход к<br class="hidden md:block"> решению поставленных задач</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Накопительные скидки для<br class="hidden md:block"> постояных партнеров</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Сопровождение открытия<br> магазина "с нуля"</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Большой, и обновляемый<br> ассортимент всегда на складе</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Работаем с юр.лицами и ИП с<br> НДС и без</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Выгрузка из базы данных для<br> вашего сайта</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Низкие конкурентные цены</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Помощь в организации доставки дверей</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Персональный менеджер</li>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-x-5">
+                    <div class="w-5 h-5 bg-blue"></div>
+                    <li>Информационно – рекламная поддержка.</li>
+                </div>
+
+            </ul>
+
+        </section>
+
+        <section
+            class="grid items-baseline min-h-[50vh] snap-start grid-flow-row pl-5 pr-5 grid-rows-fit3 gap-y-5 pt-7">
+
+            <div class="flex flex-row text-4xl font-bold leading-9 md:pl-16 gap-x-10">
+
+                <img class="hidden md:block" src="./img/svg/cross.svg" alt="">
+
+                <h5 class="">
+                    Специальные<br class="hidden md:block"> диллерские условия
+                </h5>
+            </div>
+
+
+            <p class="text-lg leading-6 md:pl-16 text-semidark">
+                Мы нацелены на получение прибыли наших дилеров<br><br>
+                Поэтому мы разработали специальные алгоритмы работы,
+                которые позволяют получать прибыль вам с первого месяца работы
             </p>
 
-            <p class="text-lg leading-6 text-white">
-                Инновационность и эксклюзивность основных решений этой серии позволит Вам стать обладателем
-                индивидуального изделия, отличающего Ваш дом от всеобщего однообразия и дешевизны.
+            <div class="flex flex-row text-xl leading-7 md:pl-16 pb-7 text-semidark gap-x-5">
+                <p>Cвязаться с нами</p>
+                <img src="./img/svg/orange_button.svg" alt="">
+            </div>
+        </section>
+
+        <section
+            class="grid min-h-[50vh] grid-flow-row snap-start pt-10 pl-5 pr-5 md:pl-10 md:grid-cols-2 md:grid-rows-fit5 gap-y-6">
+            <h6 class="text-4xl font-bold leading-8 text-dark">
+                Стать партнером
+            </h6>
+
+            <div class="pb-3 border-b-2 md:col-start-1 md:col-end-3 md:row-start-2 border-gray border-opacity-30">
+
+                <input type="text" name="" id=""
+                    class=" placeholder:leading-5 placeholder:text-black placeholder:text-lg" placeholder="Имя">
+            </div>
+
+
+
+            <div class="pb-3 border-b-2 md:row-start-3 border-gray md:mr-6 border-opacity-30">
+                <input type="email" name="" id=""
+                    class="placeholder:leading-5 placeholder:text-black placeholder:text-lg" placeholder="E-mail">
+            </div>
+
+
+
+            <div class="pb-3 border-b-2 md:row-start-3 border-gray border-opacity-30">
+                <input type="number" name="" id=""
+                    class="placeholder:leading-5 placeholder:text-black placeholder:text-lg"
+                    placeholder="Номер телефона">
+            </div>
+
+            <p class="text-sm leading-4 text-more-gray md:relative md:right-44 md:row-start-4 md:col-start-2">
+                Нажимая кнопку «Связаться», я даю свое согласие на обработку моих персональных данных.
             </p>
 
-            <div class="flex flex-row gap-5">
-                <p class="text-lg text-blue"><span
-                        class="font-bold text-5xl leading-[47px] text-blue">27+</span><br>моделей</p>
-                <p class="text-lg text-blue"><span
-                        class="font-bold text-5xl leading-[47px] text-blue">150+</span><br>дверей</p>
-            </div>
+            <button type="submit" class="text-lg leading-5 bg-orange md:w-36 md:row-start-4 h-11">Связаться</button>
 
-            <button class="w-[188px] h-11 bg-orange text-dark text-lg leading-5 text-center">Перейти в каталог</button>
-        </div>
-
-        <div
-            class="bg-[url(./img/hitech.png)] content-center md:grid-rows-fit2 md:grid-cols-fit2 lg:h-screen lg:col-start-1 lg:w-[50vw] h-44 md:h-[436px] bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center mt-8 ">
-
-
-
-            <button class="w-12 h-12 rotate-90 bg-white md:row-start-1 md:col-start-2 ">
-
-                <img src="./img/svg/button_down.svg" alt="">
-            </button>
-
-            <p class="self-stretch text-2xl font-bold leading-6 text-white -rotate-90 md:row-start-1 whitespace-nowrap lg:text-6xl fhd:text-7xl md:row-end-3 md:text-[40px] md:leading-[80%] ">Стиль<br class="">
-                Hi-Tech</p>
-
-            <button class="w-12 h-12 -rotate-90 bg-white md:col-start-2 md:row-start-2 ">
-
-                <img src="./img/svg/button_down.svg" alt="">
-            </button>
-            <!-- self strech чет не то -->
-        </div>
-
-    </main>
-
-    <section class="hidden md:block bg-[url(./img/bg-2.png)] snap-center  min-h-screen bg-cover bg-center text-white ">
-
-        <p class="text-[40px] leading-[41px] font-bold pt-32 pb-10 ml-8 ">Премьер</p>
-
-        <div class="grid grid-flow-col pb-64 pl-5 overflow-x-scroll overflow-y-hidden snap-x grid-cols-fit4 gap-x-8 ">
-
-
-
-            <div class="relative snap-center">
-                <p>
-
-                </p>
-
-                <img class="" src="./img/doors/door1.png" alt="">
-            </div>
-
-            <div class="relative snap-center">
-                <p>
-
-                </p>
-
-                <img class="" src="./img/doors/door2.png" alt="">
-            </div>
-
-            <div class="relative snap-center">
-                <p>
-
-                </p>
-
-                <img class="" src="./img/doors/door3.png" alt="">
-            </div>
-
-            <div class="relative snap-center">
-                <p>
-
-                </p>
-
-                <img class="" src="./img/doors/door4.png" alt="">
+            <div class="grid grid-flow-col pb-6 md:pb-40 md:row-start-5 md:col-start-1 md:col-end-3 ">
+                <p class="text-base leading-5 text-gray">© 2000—2019, LERAS</p>
+                <p class="text-base leading-5 text-right text-gray">Разработка сайта LYNXOFT</p>
             </div>
 
 
-        </div>
 
 
-    </section>
 
-    <section class="grid content-between min-h-screen grid-flow-row snap-center lg:grid lg:grid-flow-col lg:justify-items-stretch lg:gap-x-12">
-        <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
 
-            <p class="text-lg leading-4 ">Серия — Премьер</p>
+        </section>
+    </div>
 
-            <h1 class="text-4xl font-bold leading-9 ">Двери для дома</h1>
-
-            <p class="text-lg font-bold leading-6 ">
-                Именно двери являются визитной карточкой дома, которая дает представление о вкусе и достатке хозяев
-            </p>
-
-            <p class="text-lg leading-6 ">
-                Инновационность и эксклюзивность основных решений этой серии позволит Вам стать обладателем
-                индивидуального изделия, отличающего Ваш дом от всеобщего однообразия и дешевизны.
-            </p>
-
-            <div class="flex flex-row gap-5">
-                <p class="text-lg "><span class="font-bold text-5xl leading-[47px] ">27+</span><br>моделей</p>
-                <p class="text-lg "><span class="font-bold text-5xl leading-[47px]">150+</span><br>дверей</p>
-            </div>
-
-            <button class="w-[188px] h-11 bg-orange text-dark text-lg leading-5 text-center">Перейти в каталог</button>
-        </div>
-
-        <div
-            class="bg-[url(./img/hitech.png)] content-center md:grid-rows-fit2 md:grid-cols-fit2 lg:h-screen lg:w-[50vw] h-44 md:h-[436px] bg-no-repeat bg-center bg-cover grid grid-flow-col justify-between items-center justify-items-center md:pr-4">
-
-
-
-            <button class="w-12 h-12 rotate-90 bg-white md:row-start-1 md:col-start-2 ">
-
-                <img src="./img/svg/button_down.svg" alt="">
-            </button>
-
-            <p class="self-stretch text-2xl font-bold leading-6 text-white -rotate-90 md:row-start-1 whitespace-nowrap lg:text-6xl fhd:text-7xl md:row-end-3 md:text-[40px] md:leading-[80%] ">Стиль<br class="">
-                Hi-Tech</p>
-
-            <button class="w-12 h-12 -rotate-90 bg-white md:col-start-2 md:row-start-2 ">
-
-                <img src="./img/svg/button_down.svg" alt="">
-            </button>
-            <!-- self strech чет не то -->
-        </div>
-    </section>
-
-    <section class="hidden min-h-screen md:block snap-center text-dark ">
-
-        <p class="text-[40px] leading-[41px] font-bold pt-32 pb-10 ml-8 ">Оптима</p>
-
-        <div class="grid grid-flow-col pb-64 pl-5 overflow-x-scroll overflow-y-hidden grid-cols-fit4 gap-x-8 ">
-
-
-
-            <div class="relative">
-                <p>
-
-                </p>
-
-                <img class="" src="./img/doors/door1w.png" alt="">
-            </div>
-
-            <div class="relative">
-                <p>
-
-                </p>
-
-                <img class="" src="./img/doors/door2w.png" alt="">
-            </div>
-
-            <div class="relative">
-                <p>
-
-                </p>
-
-                <img class="" src="./img/doors/door3w.png" alt="">
-            </div>
-
-            <div class="relative">
-                <p>
-
-                </p>
-
-                <img class="" src="./img/doors/door4w.png" alt="">
-            </div>
-
-
-        </div>
-
-
-    </section>
-
-    <section class="bg-[url(./img/bg-3.png)] lg:bg-[url(./img/bg3lg.png)] snap-center  min-h-screen lg:grid lg:grid-flow-col lg:overflow-hidden bg-cover bg-center">
-        <div class="grid grid-flow-row pl-5 pr-5 gap-y-5 pt-7">
-            <h2 class="text-4xl font-bold leading-8 text-white">Новые технологии<br>и инновационные<br>решения</h2>
-
-            <p class="text-lg leading-4 text-white opacity-40">Более 20 лет опыта</p>
-
-            <p class="leading-5 text-lg tracking-[0.02em] text-white ">Наши инженеры компании постоянно совершенствуют
-                конструкцию входных дверей.<br><br>
-
-                В своей работе мы используем международные стандарты качества и эффективности в области производства,
-                материалов, дизайна и поэтому достигаем предельного качества продукции.
-                Многоступенчатый контроль качества максимально исключает возможность брака.
-            </p>
-
-            <p class="text-lg text-blue"><span class="font-bold text-5xl leading-[48px]  text-blue">18
-                    000+</span><br>произведенных дверей</p>
-        </div>
-
-        <div class="grid grid-flow-row justify-items-center lg:items-center mt-14">
-            <img class="lg:h-[70vh]" src=" ./img/hz.png" alt="">
-
-
-            <img class="lg:hidden " src="./img/player.png" alt="">
-        </div>
-
-    </section>
-
-
-
-    <section class="bg-[url(./img/bg-4.png)] min-h-screen snap-center  bg-cover bg-center">
-
-        <h3 class="text-4xl font-bold leading-9 text-center text-white pt-11">
-            Наши партнеры
-        </h3>
-
-        <div
-            class="grid grid-flow-row pl-5 lg:grid-cols-fit3 md:grid-cols-fit2 pr-5 pt-7 gap-y-[2px] justify-items-center md:justify-center">
-            <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
-                <p class="self-center text-lg font-bold leading-5 text-white ml-7">Оптовые компании по продаже<br>
-                    дверей
-                </p>
-                <img src="./img/cards/card1.png" alt="">
-            </div>
-            <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
-                <p class="self-center text-lg font-bold leading-5 text-white ml-7">
-                    Дверные магазины
-                </p>
-                <img class="mr-5" src="./img/cards/card2.png" alt="">
-            </div>
-            <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
-                <p class="self-center text-lg font-bold leading-5 text-white ml-7">
-                    Компании - застройщики
-                </p>
-                <img src="./img/cards/card3.png" alt="">
-            </div>
-            <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
-                <p class="self-center text-lg font-bold leading-5 text-white ml-7">
-                    Строительные фирмы
-                </p>
-                <img src="./img/cards/card4.png" alt="">
-            </div>
-            <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
-                <p class="self-center text-lg font-bold leading-5 text-white ml-7">
-                    Смежные организация с отделом снабжения
-                </p>
-                <img src="./img/cards/card3.png" alt="">
-            </div>
-            <div
-                class="bg-[url(./img/bg-1.png)] bg-center bg-cover flex flex-row w-[279px] lg:w-[325px] lg:h-[164px] h-[120px] items-end justify-between">
-                <p class="self-center text-lg font-bold leading-5 text-white ml-7">
-                    Дизайнеры, проектные<br> бюро
-                </p>
-                <img class="mr-5" src="./img/cards/card2.png" alt="">
-            </div>
-
-            <p class="pb-8 mt-10 text-xl leading-7 text-center text-white md:col-start-1 md:col-end-3 lg:col-end-4">
-                Мы производим входные двери «Leras» в рамках наших коллекций, а также по индивидуальным проектам
-            </p>
-        </div>
-
-
-
-
-
-
-
-    </section>
-
-    <section class="bg-[url(./img/bg-1.png)] snap-center min-h-screen bg-center bg-cover">
-
-        <h4 class="ml-5 mr-5 text-4xl leading-9 text-white pt-9 ">
-            Сотрудничать с нами выгодно
-        </h4>
-
-        <ul
-            class="text-white text-lg md:grid-cols-3 md:grid-rows-4 md:grid-flow-col lead-[18px] mt-8 ml-5 mr-5 grid grid-flow-row gap-y-5 pb-10">
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Уникальные стартовые<br class="hidden md:block"> условия для работы.</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Бесплатное обучение<br class="hidden md:block"> продавцов и специалистов дилеров</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Персональный подход к<br class="hidden md:block"> решению поставленных задач</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Накопительные скидки для<br class="hidden md:block"> постояных партнеров</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Сопровождение открытия<br> магазина "с нуля"</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Большой, и обновляемый<br> ассортимент всегда на складе</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Работаем с юр.лицами и ИП с<br> НДС и без</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Выгрузка из базы данных для<br> вашего сайта</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Низкие конкурентные цены</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Помощь в организации доставки дверей</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Персональный менеджер</li>
-            </div>
-
-            <div class="flex flex-row md:flex-col gap-x-5">
-                <div class="w-5 h-5 bg-blue"></div>
-                <li>Информационно – рекламная поддержка.</li>
-            </div>
-
-        </ul>
-
-    </section>
-
-    <section class="grid items-baseline min-h-[50vh] snap-center grid-flow-row pl-5 pr-5 grid-rows-fit3 gap-y-5 pt-7">
-
-        <div class="flex flex-row text-4xl font-bold leading-9 md:pl-16 gap-x-10">
-
-            <img class="hidden md:block" src="./img/svg/cross.svg" alt="">
-
-            <h5 class="">
-                Специальные<br class="hidden md:block"> диллерские условия
-            </h5>
-        </div>
-
-
-        <p class="text-lg leading-6 md:pl-16 text-semidark">
-            Мы нацелены на получение прибыли наших дилеров<br><br>
-            Поэтому мы разработали специальные алгоритмы работы,
-            которые позволяют получать прибыль вам с первого месяца работы
-        </p>
-
-        <div class="flex flex-row text-xl leading-7 md:pl-16 pb-7 text-semidark gap-x-5">
-            <p>Cвязаться с нами</p>
-            <img src="./img/svg/orange_button.svg" alt="">
-        </div>
-    </section>
-
-    <section class="grid min-h-[50vh] grid-flow-row snap-center pt-10 pl-5 pr-5 md:pl-10 md:grid-cols-2 md:grid-rows-fit5 gap-y-6">
-        <h6 class="text-4xl font-bold leading-8 text-dark">
-            Стать партнером
-        </h6>
-
-        <div class="pb-3 border-b-2 md:col-start-1 md:col-end-3 md:row-start-2 border-gray border-opacity-30">
-
-            <input type="text" name="" id="" class=" placeholder:leading-5 placeholder:text-black placeholder:text-lg"
-                placeholder="Имя">
-        </div>
-
-
-
-        <div class="pb-3 border-b-2 md:row-start-3 border-gray md:mr-6 border-opacity-30">
-            <input type="email" name="" id="" class="placeholder:leading-5 placeholder:text-black placeholder:text-lg"
-                placeholder="E-mail">
-        </div>
-
-
-
-        <div class="pb-3 border-b-2 md:row-start-3 border-gray border-opacity-30">
-            <input type="number" name="" id="" class="placeholder:leading-5 placeholder:text-black placeholder:text-lg"
-                placeholder="Номер телефона">
-        </div>
-
-        <p class="text-sm leading-4 text-more-gray md:relative md:right-44 md:row-start-4 md:col-start-2">
-            Нажимая кнопку «Связаться», я даю свое согласие на обработку моих персональных данных.
-        </p>
-
-        <button type="submit" class="text-lg leading-5 bg-orange md:w-36 md:row-start-4 h-11">Связаться</button>
-
-        <div class="grid grid-flow-col pb-6 md:pb-40 md:row-start-5 md:col-start-1 md:col-end-3 ">
-            <p class="text-base leading-5 text-gray">© 2000—2019, LERAS</p>
-            <p class="text-base leading-5 text-right text-gray">Разработка сайта LYNXOFT</p>
-        </div>
-
-
-
-
-
-
-    </section>
 
 
 
