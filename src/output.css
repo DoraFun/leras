@@ -558,6 +558,52 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 980px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+  }
+}
+
 .fixed {
   position: fixed;
 }
@@ -711,17 +757,8 @@ video {
       scroll-snap-type: x var(--tw-scroll-snap-strictness);
 }
 
-.snap-y {
-  -ms-scroll-snap-type: y var(--tw-scroll-snap-strictness);
-      scroll-snap-type: y var(--tw-scroll-snap-strictness);
-}
-
 .snap-start {
   scroll-snap-align: start;
-}
-
-.snap-center {
-  scroll-snap-align: center;
 }
 
 .grid-flow-row {
@@ -744,10 +781,6 @@ video {
 
 .flex-row {
   flex-direction: row;
-}
-
-.flex-col {
-  flex-direction: column;
 }
 
 .content-center {
@@ -844,10 +877,6 @@ video {
 
 .overflow-x-scroll {
   overflow-x: scroll;
-}
-
-.scroll-smooth {
-  scroll-behavior: smooth;
 }
 
 .whitespace-nowrap {

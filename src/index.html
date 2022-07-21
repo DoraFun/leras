@@ -10,7 +10,14 @@
     <link href="//db.onlinewebfonts.com/c/0e4eba488b97739bf75317aaa728f3c1?family=TTChocolates-Regular" rel="stylesheet"
         type="text/css" />
     <link rel="stylesheet" type="text/css" href="../node_modules/fullpage.js/dist/fullpage.css" />
-    <script defer type="text/javascript" src="../node_modules/fullpage.js/dist/fullpage.extensions.js"></script>
+    <script src="../node_modules/panelsnap/docs/panelsnap.js" defer></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          new PanelSnap();
+        });
+    </script>
+
+
 </head>
 
 <body class="overflow-x-hidden font-choco ">
@@ -70,9 +77,9 @@
         <img class="" src="./img/svg/button_up.svg" alt="">
     </button>
 
-    <div class="flex flex-col snap-y scroll-smooth">
+    
 
-        <header
+        <section
             class="bg-[url(./img/bg-1.png)] bg-center lg:items-center snap-start bg-cover lg:grid lg:grid-flow-col min-h-screen lg:justify-items-stretch  lg:gap-x-12  ">
 
 
@@ -94,9 +101,9 @@
 
 
 
-        </header>
+        </section>
 
-        <main class="bg-[url(./img/bg-2.png)] bg-cover  grid grid-flow-row snap-start  content-between min-h-screen bg-center lg:items-stretch
+        <section class="bg-[url(./img/bg-2.png)] bg-cover  grid grid-flow-row snap-start  content-between min-h-screen bg-center lg:items-stretch
         lg:grid lg:grid-flow-col
         lg:justify-items-stretch lg:gap-x-12">
 
@@ -148,7 +155,7 @@
                 <!-- self strech чет не то -->
             </div>
 
-        </main>
+        </section>
 
         <section
             class="hidden md:block bg-[url(./img/bg-2.png)] snap-start  min-h-screen bg-cover bg-center text-white ">
@@ -531,11 +538,7 @@
 
 
         </section>
-    </div>
-
-
-
-
+   
 
 </body>
 
